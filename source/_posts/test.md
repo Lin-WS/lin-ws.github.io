@@ -4,6 +4,7 @@ toc: true
 sticky: true
 date: 2024-12-26 17:10:07
 tags:
+    - Hexo
     - markdown
 categories:
     - test
@@ -21,7 +22,7 @@ article:
 ## 二级标题
 ### 三级标题
 
-```
+```text
 # 一级标题
 ## 二级标题
 ### 三级标题
@@ -34,7 +35,7 @@ article:
 
 ~~删除线~~
 
-```
+```text
 *斜体* 或 _斜体_
 **加粗**
 ~~删除线~~
@@ -45,7 +46,7 @@ article:
     <img src="./test.jpg" alt="test" style="zoom:80%;"/>
 </center>
 
-```markdown 
+```text 
 <center>
     <img src="./test.jpg" alt="test" style="zoom:80%;"/>
 </center>
@@ -62,7 +63,7 @@ int main() {
 }
 {% endcodeblock %}
 
-```
+```text
 {% codeblock test lang:c %}
 #include <stdio.h>
 int main() {
@@ -79,7 +80,7 @@ int main() {
 >> 二级引用
 >>> 三级引用
 
-```
+```text
 > 一级引用
 >> 二级引用
 >>> 三级引用
@@ -88,7 +89,7 @@ int main() {
 # 跳转
 [点击跳转](#jump)
 
-```
+```text
 [点击跳转](#jump)
 
 <span id="jump" style="color: red;"> 跳转到此</span>
@@ -97,7 +98,7 @@ int main() {
 # 超链接
 [www.baidu.com](https://www.baidu.com)
 
-```
+```text
 [www.baidu.com](https://www.baidu.com)
 ```
 
@@ -108,7 +109,7 @@ int main() {
 | 关羽 |  打  | 二哥 |
 | 张飞 |  骂  | 三弟 |
 
-```
+```text
 | 姓名 | 技能 | 排行 |
 | :--: | :--: | :--: |
 | 刘备 |  哭  | 大哥 |
@@ -125,7 +126,7 @@ int main() {
 * test 2
 * test 3
 
-```
+```text
 1. test one
 2. test two
 3. test three
@@ -138,7 +139,7 @@ int main() {
 # 强调
 这是`强调`的内容
 
-```
+```text
 这是`强调`的内容
 ```
 
@@ -147,7 +148,7 @@ int main() {
 
 行内公式：$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,. $
 
-```
+```text
 用法为：文字文字$公式$文字文字
 行内公式：$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,. $
 ```
@@ -157,7 +158,7 @@ int main() {
 $$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$$
 </div>
 
-```
+```text
 用法为：
 文字文字
 <div>
@@ -203,9 +204,52 @@ $$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$$
 |   omega    |  $\Omega$  |     \\$\Omega\\$     |   $\omega$    |    \\$\omega\\$      |
 
 ## 上下标
+上标使用 `^` 符号，后接 `{}` ，下标使用 `_` 符号，将需要作为上标或下标的符号写在各自的花括号中
+
 上下标表示：$x^{2}_{ij}$
 
-```
+```text
 上下标表示：$x^{2}_{ij}$
 ```
 
+## 括号
+小括号：()
+
+中括号：[]
+
+花括号：{}
+
+公式的括号：$\left(\frac{x}{y}\right)$，$\left[\frac{x}{y}\right]$，$\left\\{\frac{x}{y}\right\\}$
+花括号由于有分组的作用，因此用在公式时使用 `\\{\\}` 转义符号来表示
+
+尖括号：<> 或 $\langle$ $\rangle$
+
+上取整：$\lceil$ $\rceil$
+
+下取整：$\lfloor$ $\rfloor$
+
+```text
+小括号：()
+
+中括号：[]
+
+花括号：{}
+
+公式的括号：$\left(\frac{x}{y}\right)$，$\left[\frac{x}{y}\right]$，$\left\\{\frac{x}{y}\right\\}$
+
+尖括号：<> 或 $\langle$ $\rangle$
+
+上取整：$\lceil$ $\rceil$
+
+下取整：$\lfloor$ $\rfloor$
+```
+
+## 求和
+求和符号：$\sum\_{r=1}^{\infty}n$ 或 $\sum\limits\_{n=1}^{\infty}n$
+由于使用了两个 `_` ，被markdown认为是斜体符号，因此使用转义符号 `\_`
+
+```text
+求和符号：$\sum\_{r=1}^{\infty}n$ 或 $\sum\limits\_{n=1}^{\infty}n$
+```
+
+## 积分
