@@ -1,0 +1,40 @@
+widgets:
+    # Profile widget configurations
+    -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: profile
+        # Author name
+        author: Wen Shilin
+        # Author title
+        author_title: a student
+        # Author's current location
+        location: Harbin, China
+        # URL or path to the avatar image
+        avatar: /img/avatar.jpg
+        # Whether show the rounded avatar image
+        avatar_rounded: true
+        # Email address for the Gravatar
+        gravatar: 
+        # URL or path for the follow button
+        follow_link: https://github.com/Lin-WS
+        # Links to be shown on the bottom of the profile widget
+        social_links:
+            mail:
+                icon: fa-sharp fa-solid fa-envelope
+                url: mailto:wenshilin@hrbeu.edu.cn
+            Wechat:
+                icon: fa-brands fa-weixin
+                url: /img/wechat.jpg
+            QQ:
+                icon: fa-brands fa-qq
+                url: /img/qq.jpg
+    -
+        type: recent_posts
+        position: left
+    # -
+    #     type: categories
+    #     position: left
+    # -
+    #     type: tags
+    #     position: left
