@@ -20,11 +20,12 @@
         $('.justified-gallery').justifiedGallery();
     }
 
-    // if (typeof moment === 'function') {
-    //     $('.article-meta time').each(function() {
-    //         $(this).text(moment($(this).attr('datetime')).fromNow());
-    //     });
-    // }
+    if (typeof moment === 'function') {
+        $('.article-meta time').each(function() {
+            $(this).text(moment($(this).attr('datetime')).local().format('YYYY-MM-DD HH:mm'));
+            $(this).attr('title', moment($(this).attr('datetime')).local().format('YYYY年MM月DD日 dddd HH:mm:ss'));
+        });
+    }
 
     $('.article > .content > table').each(function() {
         if ($(this).width() > $(this).parent().width()) {

@@ -62,6 +62,7 @@ module.exports = class extends Component {
                             {/* {page.date && <span class="level-item" dangerouslySetInnerHTML={{
                                 __html: _p('article.created_at', `<time dateTime="${date_xml(page.date)}" title="${new Date(page.date).toLocaleString()}">${date(page.date)}</time>`)
                             }}></span>} */}
+                            {/* 置顶 */}
                             {sticky ? <span class='pinned article-title '><i class="fas fa-thumbtack"></i>置顶</span> : null}
                             {page.date && <span class="level-item">&nbsp;&nbsp;
                                 <i className="far fa-calendar-alt">&nbsp;</i>
