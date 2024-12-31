@@ -109,7 +109,7 @@ navbar:
         归档: /archives
         分类: /categories
         标签: /tags
-        常见问题: /question
+        笔记本: /notebook
         留言板: /guestbook
     # Links to be shown on the right of the navigation bar
     links:
