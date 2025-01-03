@@ -39,14 +39,18 @@ categories:
 ```
 
 # 图片
-<center>
-    <img src="./test.jpg" alt="test" style="zoom:80%;"/>
-</center>
+{% raw %}
+<div style="text-align: center;">
+  <img src="./test.jpg" alt="test" style="zoom:80%;" />
+</div>
+{% endraw %}
 
 ``` text 点击展开代码 >folded
-<center>
-    <img src="./test.jpg" alt="test" style="zoom:80%;"/>
-</center>
+{% raw %}
+<div style="text-align: center;">
+  <img src="./test.jpg" alt="test" style="zoom:80%;" />
+</div>
+{% endraw %}
 ```
 
 # 代码
