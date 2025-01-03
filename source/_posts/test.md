@@ -1,7 +1,7 @@
 ---
 title: test
 toc: true
-sticky: true
+sticky: false
 date: 2024-12-26 17:10:07
 tags:
     - Hexo
@@ -190,35 +190,35 @@ $$\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.$$
 |      code      |         符号         |        code        |           符号           |
 | :------------: | :------------------: | :----------------: | :----------------------:|
 |     $sinx$     |      \\$sinx\\$      |     $arctanx$      |       \\$arctanx\\$     |
-|     $\lt$      |      \\$\lt$\\$      |       $\gt$        |         \\$\gt$\\$      |
-|     $\le$      |      \\$\le$\\$      |       $\ge$        |         \\$\ge$\\$      |
-|     $\ll$      |      \\$\ll$\\$      |       $\gg$        |         \\$\gg$\\$      |
-|     $\ne$      |      \\$\ne$\\$      |       $\not$       |         \\$\not$\\$     |
-|  $\varnothing$ |  \\$\varnothing$\\$  |       $\in$        |         \\$\in$\\$      |
-|     $\cup$     |      \\$\cup$\\$     |       $\cap$       |         \\$\cap$\\$     |
-|    $\subset$   |    \\$\subset$\\$    |    $\subseteq$     |      \\$\subseteq$\\$   |
-|    $\supset$   |    \\$\supset$\\$    |  $\binom{n+1}{2k}$ |  \\$\binom{n+1}{2k}$\\$ |
-|  $\rightarrow$ |  \\$\rightarrow$\\$  |     $\leftarrow$   |      \\$\leftarrow$\\$  |
-|  $\Rightarrow$ |  \\$\Rightarrow$\\$  |     $\Leftarrow$   |      \\$\Leftarrow$\\$  |
-|    $\mapsto$   |    \\$\mapsto$\\$    |       $\land$      |        \\$\land$\\$     |
-|     $\lor$     |      \\$\lor$\\$     |       $\lnot$      |        \\$\lnot$\\$     |
-|    $\forall$   |    \\$\forall$\\$    |     $\exists$      |       \\$\exists$\\$    |
-|     $\top$     |      \\$\top$\\$     |       $\bot$       |         \\$\bot$\\$     |
-|    $\vdash$    |     \\$\vdash$\\$    |      $\vDash$      |        \\$\vDash$\\$    |
-|     $\star$    |     \\$\star$\\$     |       $\ast$       |         \\$\ast$\\$     |
-|     $\oplus$   |     \\$\oplus$\\$    |       $\circ$      |        \\$\circ$\\$     |
-|    $\bullet$   |    \\$\bullet$\\$    |      $\approx$     |       \\$\approx$\\$    |
-|     $\sim$     |      \\$\sim$\\$     |       $\cong$      |        \\$\cong$\\$     |
-|    $\equiv$    |     \\$\equiv$\\$    |       $\prec$      |        \\$\prec$\\$     |
-|    $\infty$    |     \\$\infty$\\$    |       $\nabla$     |        \\$\nabla$\\$    |
-|   $\partial$   |    \\$\partial$\\$   |        $\Im$       |         \\$\Im$\\$      |
-|   $a \mod b$   |    \\$a \mod b$\\$   |      $\ldots$      |        \\$\ldots$\\$    |
-|     $\cdots$   |     \\$\cdots$\\$    |       $\cdot$      |        \\$\cdot$\\$     |
-|     $\hat x$   |     \\$\hat x$\\$    |   $\widehat {xy}$  |   \\$\widehat {xy}$\\$  |
-|     $\bar x$   |     \\$\bar x$\\$    |       $\vec A$     |        \\$\vec A$\\$    |
-| $\overline {AB}$| \\$\overline {AB}$\\$| $\overrightarrow {AB}$| \overrightarrow AB  |
-|     $\dot x$   |     \\$\dot x$\\$    |   $\dot {\dot x}$  |   \\$\dot {\dot x}$\\$  |
-|    $\ddot x$   |    \\$\ddot x$\\$    |                    |                         |
+|     $\lt$      |      \\$\lt\\$      |       $\gt$        |         \\$\gt\\$      |
+|     $\le$      |      \\$\le\\$      |       $\ge$        |         \\$\ge\\$      |
+|     $\ll$      |      \\$\ll\\$      |       $\gg$        |         \\$\gg\\$      |
+|     $\ne$      |      \\$\ne\\$      |       $\not$       |         \\$\not\\$     |
+|  $\varnothing$ |  \\$\varnothing\\$  |       $\in$        |         \\$\in\\$      |
+|     $\cup$     |      \\$\cup\\$     |       $\cap$       |         \\$\cap\\$     |
+|    $\subset$   |    \\$\subset\\$    |    $\subseteq$     |      \\$\subseteq\\$   |
+|    $\supset$   |    \\$\supset\\$    |  $\binom{n+1}{2k}$ |  \\$\binom{n+1}{2k}\\$ |
+|  $\rightarrow$ |  \\$\rightarrow\\$  |     $\leftarrow$   |      \\$\leftarrow\\$  |
+|  $\Rightarrow$ |  \\$\Rightarrow\\$  |     $\Leftarrow$   |      \\$\Leftarrow\\$  |
+|    $\mapsto$   |    \\$\mapsto\\$    |       $\land$      |        \\$\land\\$     |
+|     $\lor$     |      \\$\lor\\$     |       $\lnot$      |        \\$\lnot\\$     |
+|    $\forall$   |    \\$\forall\\$    |     $\exists$      |       \\$\exists\\$    |
+|     $\top$     |      \\$\top\\$     |       $\bot$       |         \\$\bot\\$     |
+|    $\vdash$    |     \\$\vdash\\$    |      $\vDash$      |        \\$\vDash\\$    |
+|     $\star$    |     \\$\star\\$     |       $\ast$       |         \\$\ast\\$     |
+|     $\oplus$   |     \\$\oplus\\$    |       $\circ$      |        \\$\circ\\$     |
+|    $\bullet$   |    \\$\bullet\\$    |      $\approx$     |       \\$\approx\\$    |
+|     $\sim$     |      \\$\sim\\$     |       $\cong$      |        \\$\cong\\$     |
+|    $\equiv$    |     \\$\equiv\\$    |       $\prec$      |        \\$\prec\\$     |
+|    $\infty$    |     \\$\infty\\$    |       $\nabla$     |        \\$\nabla\\$    |
+|   $\partial$   |    \\$\partial\\$   |        $\Im$       |         \\$\Im\\$      |
+|   $a \mod b$   |    \\$a \mod b\\$   |      $\ldots$      |        \\$\ldots\\$    |
+|     $\cdots$   |     \\$\cdots\\$    |       $\cdot$      |        \\$\cdot\\$     |
+|     $\hat x$   |     \\$\hat x\\$    |   $\widehat {xy}$  |   \\$\widehat {xy}\\$  |
+|     $\bar x$   |     \\$\bar x\\$    |       $\vec A$     |        \\$\vec A\\$    |
+|$\overline {AB}$| \\$\overline {AB}\\$| $\overrightarrow {AB}$| \overrightarrow AB  |
+|     $\dot x$   |     \\$\dot x\\$    |   $\dot {\dot x}$  |   \\$\dot {\dot x}\\$  |
+|    $\ddot x$   |    \\$\ddot x\\$    |  $\Leftrightarrow$ |  \\$\Leftrightarrow\\$  |
 
 # 上下标
 
@@ -657,5 +657,67 @@ function onTabClick (event) {
     $('.tabs li').removeClass('is-active');
     $(event.currentTarget).parent().addClass('is-active');
 }
+</script>
+```
+
+# 展开片段
+
+<div class="collapsible">
+  <button class="toggle-button">点击展开</button>
+  <div class="content">
+  这里是展开的内容
+  </div>
+</div>
+
+<style>
+.collapsible .content {
+  display: none;
+  margin-top: 10px;
+}
+.collapsible .toggle-button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+</style>
+
+<script>
+document.querySelectorAll('.collapsible .toggle-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const content = button.nextElementSibling;
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  });
+});
+</script>
+
+```text 点击展开代码 >folded
+<div class="collapsible">
+  <button class="toggle-button">点击展开</button>
+  <div class="content">
+  这里是展开的内容
+  </div>
+</div>
+
+<style>
+.collapsible .content {
+  display: none;
+  margin-top: 10px;
+}
+.collapsible .toggle-button {
+  background-color: #f1f1f1;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+</style>
+
+<script>
+document.querySelectorAll('.collapsible .toggle-button').forEach(button => {
+  button.addEventListener('click', () => {
+    const content = button.nextElementSibling;
+    content.style.display = content.style.display === 'block' ? 'none' : 'block';
+  });
+});
 </script>
 ```
