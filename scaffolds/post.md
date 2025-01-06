@@ -4,7 +4,6 @@ date: {{ date }}
 tags:
 categories:
     - 论文
-    - 
 toc: true
 sticky: false
 ---
